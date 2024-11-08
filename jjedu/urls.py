@@ -18,8 +18,8 @@ from django.contrib import admin
 from django.urls import path, include
 from django.contrib.auth.views import LoginView
 from django.conf.urls.static import static
-from lms import settings, views
-from web import views
+from lms import settings, urls
+from web import urls
 from . import settings
 
 
